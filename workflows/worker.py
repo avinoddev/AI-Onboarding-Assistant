@@ -2,9 +2,9 @@ from temporalio.worker import Worker
 from temporalio.client import Client
 import asyncio
 
-from workflows import DailyCheckinWorkflow
-from question_logging_workflow import QuestionLoggingWorkflow
-from summary_workflow import WeeklySummaryWorkflow
+from workflows.workflows import DailyCheckinWorkflow
+from workflows.question_logging_workflow import QuestionLoggingWorkflow
+from workflows.summary_workflow import WeeklySummaryWorkflow
 
 async def main():
     client = await Client.connect("localhost:7233")
