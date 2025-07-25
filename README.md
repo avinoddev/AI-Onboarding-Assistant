@@ -20,6 +20,13 @@ Built for the **MCP x AWS Enterprise Agents Hackathon 2025**.
 - 📈 (Optional) Logging of user questions to identify doc gaps using MongoDB
 
 ---
+## Things to consider (for better judging)
+
+- 💬 Security
+- 📋 Memory
+- 📚 
+
+---
 
 ## 🛠 Tech Stack
 
